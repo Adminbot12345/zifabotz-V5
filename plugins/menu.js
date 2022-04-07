@@ -9,7 +9,7 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ╭═══════════════════════⬣
-║╭──❉ 〔⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔⳹ ❋ཻུ۪۪piaanbotz⳹ ❋ཻུ۪۪〕 ❉──────
 ║│➸Hai, %name!
 ║│➸Tersisa *%limit Limit*
 ║│➸Role *%role*
@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Rozi〕━⬣
+  ⬣━〔Powered By piaanz〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
